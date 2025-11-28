@@ -1,0 +1,37 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# VS Code settings
+.vscode/
+
+# Compiled output
+dist/
+build/
+*.log
+
+# Backup files and temporary edits
+*.swp
+*.swo
+*~
+*.tmp
+
+# Mac folder attributes
+__MACOSX/
+
+# Environment files
+.env
+.env.*
+
+# Ignore all .txt placeholder files except README
+!README.md
+*.txt
