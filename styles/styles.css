@@ -1,5 +1,77 @@
+/*
+COLOURS:
+Azure Mist: #ecf8f8
+Alabaster Grey: #eee4e1
+Almond Cream: #e7d8c9
+Almond Silk: #e6beae
+Camel: #b2967d MAYBE
+*/
+
+
+/* TAGS */
+body {
+    margin: 0;
+    background-color: #eee4e1 ;
+}
+
+main {
+    min-height: 100vh;
+    background-color: #e7d8c9;
+    margin: 0 auto;
+    width: 75%;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0%;
+    padding-top: 10px;
+    font-size: 3em;
+    text-align: center;
+}
+
+li {
+    padding: 0 20px;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+
+/* CLASSES */
+.navbar{
+    background-color: #b2967d;
+    margin: 0%;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+}
+
+
 .center {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.about {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.portrait img {
+    padding-top: 27px;
+    width: 300px;
+}
+
+/* VIEWPORTS */
