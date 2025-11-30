@@ -9,17 +9,33 @@ Camel: #b2967d MAYBE
 
 
 /* TAGS */
-body {
+html, body {
+    height: 100%;
     margin: 0;
-    background-color: #eee4e1 ;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee4e1;
 }
 
 main {
-    min-height: 100vh;
+    flex: 1;
     background-color: #e7d8c9;
     margin: 0 auto;
     width: 75%;
     box-sizing: border-box;
+    min-height: 100vh;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #b2967d;
+    padding: 12px 0;
 }
 
 h1 {
@@ -53,7 +69,6 @@ li {
     color: black;
     text-decoration: none;
 }
-
 
 .center {
     display: flex;
