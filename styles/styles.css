@@ -67,11 +67,22 @@ li {
     grid-template-columns: auto 1fr;
     gap: 2rem;
     align-items: flex-start;
+    width: 90%;
+    font-size: 1.2em;
 }
 
 .portrait img {
     padding-top: 27px;
     width: 300px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.info section {
+    padding-right: 75px;
 }
 
 /* VIEWPORTS */
