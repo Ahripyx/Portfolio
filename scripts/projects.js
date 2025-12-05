@@ -6,15 +6,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Button navigations
     synthwave.addEventListener("click", () => {
-        window.location.href = "projects/Synthwave.html"
+        window.location.href = "projects/synthwave.html"
     })
 
     lytheria.addEventListener("click", () => {
-        window.location.href = "projects/Lytheria.html"
+        window.location.href = "projects/lytheria.html"
     })
 
     abyssal.addEventListener("click", () => {
-        window.location.href = "projects/Abyssal.html"
+        window.location.href = "projects/abyssal.html"
     })
 
 
